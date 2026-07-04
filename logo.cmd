@@ -1,22 +1,23 @@
 @echo off
-:: ANSI kodlarını etkinleştir
+:: ANSI renk kodlarını aktif etmek için ESC karakteri tanımlama
+for /F %%a in ('echo prompt $E ^| cmd') do set "ESC=%%a"
+
 echo.
-echo ^[[96m
-echo  XXXXXXXX           XXXXXXXX
-echo   XXXXXXXX         XXXXXXXX
-echo    XXXXXXXX       XXXXXXXX
-echo     XXXXXXXX     XXXXXXXX
-echo      XXXXXXXX   XXXXXXXX
-echo       XXXXXXXXXXXXXXXX
-echo        XXXXXXXXXXXXXX
-echo        XXXXXXXXXXXXXX
-echo       XXXXXXXXXXXXXXXX
-echo      XXXXXXXX   XXXXXXXX
-echo     XXXXXXXX     XXXXXXXX
-echo    XXXXXXXX       XXXXXXXX
-echo   XXXXXXXX         XXXXXXXX
-echo  XXXXXXXX           XXXXXXXX
+echo %ESC%[96mXXXXXXXX           XXXXXXXX%ESC%[0m
+echo %ESC%[96m XXXXXXXX         XXXXXXXX%ESC%[0m
+echo %ESC%[96m  XXXXXXXX       XXXXXXXX%ESC%[0m
+echo %ESC%[96m   XXXXXXXX     XXXXXXXX%ESC%[0m
+echo %ESC%[96m    XXXXXXXX   XXXXXXXX%ESC%[0m
+echo %ESC%[96m     XXXXXXXXXXXXXXXX%ESC%[0m
+echo %ESC%[96m      XXXXXXXXXXXXXX%ESC%[0m
+echo %ESC%[96m      XXXXXXXXXXXXXX%ESC%[0m
+echo %ESC%[96m     XXXXXXXXXXXXXXXX%ESC%[0m
+echo %ESC%[96m    XXXXXXXX   XXXXXXXX%ESC%[0m
+echo %ESC%[96m   XXXXXXXX     XXXXXXXX%ESC%[0m
+echo %ESC%[96m  XXXXXXXX       XXXXXXXX%ESC%[0m
+echo %ESC%[96m XXXXXXXX         XXXXXXXX%ESC%[0m
+echo %ESC%[96mXXXXXXXX           XXXXXXXX%ESC%[0m
 echo.
-echo ^[[0m
 echo Po Framework v0.1
 echo.
+pause
