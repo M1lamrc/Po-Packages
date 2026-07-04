@@ -1,6 +1,7 @@
 @echo off
-color 0B
+:: ANSI kodlarını etkinleştir
 echo.
+echo ^[[96m
 echo  XXXXXXXX           XXXXXXXX
 echo   XXXXXXXX         XXXXXXXX
 echo    XXXXXXXX       XXXXXXXX
@@ -16,6 +17,6 @@ echo    XXXXXXXX       XXXXXXXX
 echo   XXXXXXXX         XXXXXXXX
 echo  XXXXXXXX           XXXXXXXX
 echo.
-echo    Po Framework v0.1
+echo ^[[0m
+echo Po Framework v0.1
 echo.
-color 07
