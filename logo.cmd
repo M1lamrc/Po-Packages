@@ -1,10 +1,18 @@
 @echo off
+color 0B
 echo.
-echo  ____         ____  _    _  _ 
-echo ^|  _ \  ___  / ___^| ^|  ^| ^|^| ^|
-echo ^| ^|_) ^|/ _ \^| ^|    ^| ^|_^| ^|^| ^|
-echo ^|  __/ ^| (_) ^| ^|___^|  _  ^|^|_^|
-echo ^|_^|    \___/ \____^|_^| ^|_^|(_)
+echo  PPPPPPPPP 
+echo  P::::::::P
+echo  P::::::::P
+echo  PP::::::PP
+echo    P:::::P 
+echo    P:::::P 
+echo    P:::::P 
+echo  PP:::::::PP
+echo  P:::::::::P
+echo  P:::::::::P
+echo  PPPPPPPPPPP
 echo.
-echo    --- Po Framework v0.1 ---
+echo  Po Framework v0.1
 echo.
+color 07
